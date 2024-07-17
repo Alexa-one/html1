@@ -1,9 +1,24 @@
-.first {
-  display: none;
+body{
+  font: 1rem Arial,Tahoma,sans-serif;
+  color: #353535;
 }
 
-.second {
-  /* visibility: hidden; */
-  /* opacity: 0; */
-  color: transparent;
+[title|="fish"]{
+  color: red;
+}
+
+.fp{
+  color: #777;
+}
+
+.big{
+  font-size: 1.1rem;
+}
+
+.test b{
+  color: #2026b5;
+}
+
+.test > b {
+  color: red;
 }
