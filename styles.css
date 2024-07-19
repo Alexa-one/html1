@@ -1,24 +1,48 @@
-body{
-  font: 1rem Arial,Tahoma,sans-serif;
+body {
+  font: 1rem Arial, Tahoma, sans-serif;
   color: #353535;
 }
 
-[title|="fish"]{
+.list .item:nth-last-child(3n-1) {
   color: red;
 }
 
-.fp{
-  color: #777;
-}
-
-.big{
-  font-size: 1.1rem;
-}
-
-.test b{
-  color: #2026b5;
-}
-
-.test > b {
+.type i:nth-of-type(odd) {
   color: red;
+}
+
+#h1:before {
+  content: "Привіт";
+  color: red;
+}
+
+h1::after {
+  content: "!!!";
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.7s;
+}
+
+a:link {
+  color: #2e67c3;
+}
+
+a:visited {
+  color: #ff00f5;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+a:active {
+  color: green;
+}
+
+h1:target {
+  color: green;
 }
