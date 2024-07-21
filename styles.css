@@ -1,6 +1,18 @@
 body {
   font: 1rem Arial, Tahoma, sans-serif;
   color: #353535;
+  background: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30576.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721520000&semt=ais_user);
+  margin: 0;
+}
+
+.block {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 40px auto;
+  width: 500px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+  border: 10px solid #777;
 }
 
 .list .item:nth-last-child(3n-1) {
@@ -8,11 +20,6 @@ body {
 }
 
 .type i:nth-of-type(odd) {
-  color: red;
-}
-
-#h1:before {
-  content: "Привіт";
   color: red;
 }
 
