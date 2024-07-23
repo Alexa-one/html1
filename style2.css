@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://m.media-amazon.com/images/I/817Q3VCabwL._AC_UF1000,1000_QL80_.jpg);
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #272727;
+}
+
+.bl {
+  background: #fff;
+  width: 700px;
+  margin: 20px;
+  border-radius: 3px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.head {
+  background: url(https://extra.ie/wp-content/uploads/2024/05/Cliffs-of-Moher-3.jpg)
+    center;
+  padding: 0;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(25, 57, 77, 0.9);
+}
+
+.head__bg {
+  padding: 40px;
+  background-color: rgba(58, 172, 71, 0.55);
+}
+
+.head__zag {
+  font-size: 2.4rem;
+  margin: 0 0 20px 0;
+}
+
+.head__desc {
+  margin: 0;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+label{
+    cursor: pointer;
+}
+
+.form__bl{
+    margin: 10px 0;
+}

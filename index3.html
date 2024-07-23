@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Вебінар №5</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="bl head">
+      <div class="head__bg">
+        <h1 class="head__zag">Форми</h1>
+        <p class="head__desc">Базові приклади!</p>
+      </div>
+    </div>
+    <div class="bl">
+      <h2>Форма регістрації</h2>
+      <form action="#" name="my_name" method="get">
+        <div class="form__bl">
+          <label for="my_name">Ваше ім'я:</label>
+          <input
+            id="my_name"
+            type="text"
+            placeholder="Введіть ім'я"
+            maxlength="10"
+          />
+        </div>
+        <div class="form__bl">
+          <label for="my_mail">Ваша пошта:</label>
+          <input id="my_mail" type="email" placeholder="Введіть ім'я" />
+        </div>
+        <div class="form__bl">
+          <label for="my_url">Ваш сайт:</label>
+          <input id="my_url" type="url" placeholder="Введіть адресу сайту" />
+        </div>
+        <div class="form__bl">
+          <label for="my_num">Року:</label>
+          <input
+            id="my_num"
+            type="number"
+            placeholder="Введіть адресу сайту"
+            min="14"
+            max="500"
+            step="5"
+          />
+        </div>
+        <input type="submit" value="Відіслати" />
+      </form>
+    </div>
+  </body>
+</html>
