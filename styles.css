@@ -1,8 +1,25 @@
 body {
-  font: 1rem Arial, Tahoma, sans-serif;
+  font: 1rem "Sofia", Arial, Tahoma, sans-serif;
   color: #353535;
   background: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30576.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721520000&semt=ais_user);
   margin: 0;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+p {
+  text-indent: 20px;
+}
+
+.header {
+  text-align: center;
+  text-decoration: overline;
+}
+
+h1 {
+  font-weight: 800;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 5px #000;
+  text-transform: capitalize;
 }
 
 .block {
