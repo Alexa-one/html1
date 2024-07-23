@@ -14,11 +14,11 @@ p {
 .header {
   text-align: center;
   text-decoration: overline;
+}
 
 h1 {
   font-weight: 800;
   text-shadow: 1px 1px 1px #fff, 1px 1px 5px #000;
-  text-transform: capitalize;
 }
 
 .block {
