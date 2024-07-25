@@ -16,8 +16,9 @@
       <h2>Форма регістрації</h2>
       <form action="#" name="my_name" method="get">
         <div class="form__bl">
-          <label for="my_name">Ваше ім'я:</label>
+          <label class="my__label" for="my_name">Ваше ім'я:</label>
           <input
+            class="my__input"
             id="my_name"
             type="text"
             placeholder="Введіть ім'я"
@@ -25,16 +26,72 @@
           />
         </div>
         <div class="form__bl">
-          <label for="my_mail">Ваша пошта:</label>
-          <input id="my_mail" type="email" placeholder="Введіть ім'я" />
-        </div>
-        <div class="form__bl">
-          <label for="my_url">Ваш сайт:</label>
-          <input id="my_url" type="url" placeholder="Введіть адресу сайту" />
-        </div>
-        <div class="form__bl">
-          <label for="my_num">Року:</label>
+          <label class="my__label" for="my_mail">Ваша пошта:</label>
           <input
+            class="my__input"
+            id="my_mail"
+            type="email"
+            placeholder="Введіть ім'я"
+          />
+        </div>
+        <div class="form__bl">
+          <label class="my__label" for="my_url">Ваш сайт:</label>
+          <input
+            class="my__input"
+            id="my_url"
+            type="url"
+            placeholder="Введіть адресу сайту"
+          />
+        </div>
+        <div class="form__bl">
+          <label class="my__label" for="my_url">Ваше місто:</label>
+          <select class="my__input" name="city">
+            <option selected disabled>Вкажіть місто</option>
+            <optgroup label="Ірландія">
+              <option>Корк</option>
+              <option>Дублін</option>
+              <option>Голвей</option>
+            </optgroup>
+            <optgroup label="Україна">
+              <option>Рівне</option>
+              <option>Київ</option>
+              <option>Львів</option>
+              <option>Чернівці</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form__bl">
+          <p class="form__desc">Оберіть вашу стать:</p>
+        </div>
+        <div class="form__bl">
+          <label>
+            <input type="radio" name="rid" />
+            <span class="ch">Чоловічий</span>
+          </label>
+          <label>
+            <input type="radio" name="rid" />
+            <span class="ch">Жіночий</span>
+          </label>
+        </div>
+        <div class="form__bl">
+          <p class="form__desc">Що вам більше подобається?</p>
+          <label>
+            <input type="checkbox" name="int" />
+            <span class="ch">Політика</span>
+          </label>
+          <label>
+            <input type="checkbox" name="int" checked />
+            <span class="ch">Бізнес</span>
+          </label>
+          <label>
+            <input type="checkbox" name="int" />
+            <span class="ch">Відносини</span>
+          </label>
+        </div>
+        <div class="form__bl">
+          <label class="my__label" for="my_num">Вік:</label>
+          <input
+            class="my__input my__pad"
             id="my_num"
             type="number"
             placeholder="Введіть адресу сайту"
@@ -43,7 +100,13 @@
             step="5"
           />
         </div>
-        <input type="submit" value="Відіслати" />
+        <div class="form__bl">
+          <p class="form__desc">Ваше повідомлення:</p>
+          <textarea></textarea>
+        </div>
+        <input class="btn" type="reset" value="Очистити" />
+        <input class="btn" type="submit" value="Відіслати" />
+        <button class="btn" type="button" disabled>Надіслати на</button>
       </form>
     </div>
   </body>
