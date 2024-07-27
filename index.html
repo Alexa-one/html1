@@ -2,19 +2,77 @@
 <html lang="ua">
   <head>
     <meta charset="UTF-8" />
-    <title>Сайт №1</title>
+    <title>Вебінар №5</title>
+    <link rel="stylesheet" href="/style2.css" />
   </head>
   <body>
-    <h1>Привіт! Це мій перший сайт</h1>
-    <hr />
-    <p>Він створений для того щоб усвоїти основні знання <em>HTML</em></p>
-    <div style="color: black; font-size: 25px; font-weight: 600">
-      Перейти до розділу
+    <div class="bl head">
+      <div class="head__bg">
+        <h1 class="head__zag">Таблиці</h1>
+        <p class="head__desc">Базові приклади!</p>
+      </div>
     </div>
-    <ul>
-      <li><a href="about.html" target="_blank">Про мене</a></li>
-      <li><a href="about2.html" target="_blank">Кар'єрний шлях</a></li>
-      <li><a href="about3.html" target="_blank">Моє портфоліо</a></li>
-    </ul>
+    <div class="bl">
+      <h2>Таблиці</h2>
+      <table class="z h">
+        <caption>Назва таблиці</caption>
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>Ім'я</th>
+            <th>Вага</th>
+            <th>Ріст</th>
+            <th>Вік</th>
+            <th>Місто</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="2">Разом</td>
+            <td colspan="4" rowspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2">5 людей</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Гриб Олег</td>
+            <td>90</td>
+            <td>180</td>
+            <td>44</td>
+            <td rowspan="5">Корк</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Гриб Алла</td>
+            <td rowspan="2">60</td>
+            <td>165</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Гриб Софія</td>
+            <td>170</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Гриб Олександра</td>
+            <td>50</td>
+            <td>160</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Гриб Христина</td>
+            <td>40</td>
+            <td>150</td>
+            <td>11</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
