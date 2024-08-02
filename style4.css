@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://t3.ftcdn.net/jpg/02/49/68/72/360_F_249687268_Yl4AswCdwBQS7NA6hczKq0pfnjQs02UP.jpg);
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #272727;
+}
+
+.bl {
+  background-color: #fff;
+  max-width: 700px;
+  margin: 20px auto;
+  border-radius: 3px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.head {
+  padding: 0;
+  background: url(https://zbirna.com/img/news/Rizne/olimpiada/2024-07-24-1.webp)
+    center;
+  background-size: cover;
+  text-align: center;
+  color: rgb(128, 198, 238);
+  text-shadow: 1px 1px 1px rgba(25, 57, 77, 0.9);
+}
+
+.head__bg {
+  padding: 40px;
+}
+
+.head__zag {
+  font-size: 35px;
+  margin: 0 0 20px 0;
+}
+
+.h tbody tr:hover {
+  background: #f0f0f0;
+}
+
+table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
