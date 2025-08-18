@@ -1,0 +1,41 @@
+.title-main {
+  color: white;
+  background-color: rgb(15, 116, 248);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  font: 1em sans-serif;
+  font-weight: 600;
+  margin: 13px;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.lead-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.det {
+  background-color: rgb(245, 240, 240);
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+  width: 30%;
+}
+
+.value {
+  width: 70%;
+}
