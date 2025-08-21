@@ -11,6 +11,9 @@
 
 .border {
   border: 1px solid #ddd;
+  max-width: 701px;
+  margin: 25px;
+  margin-bottom: 0;
 }
 
 .lead-table {
@@ -19,11 +22,14 @@
   border: 1px solid #ddd;
   font-family: sans-serif;
   font-size: 14px;
+  max-width: 701px;
+  margin: 25px;
+  margin-top: 0;
 }
 
 .lead-table td {
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 15px;
 }
 
 .det {
@@ -33,9 +39,9 @@
 
 .label {
   font-weight: bold;
-  width: 30%;
+  width: 50%;
 }
 
 .value {
-  width: 70%;
+  width: 50%;
 }
